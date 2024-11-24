@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <title>Các hàm tính diện tích</title>
+</head>
+<body>
+    <h1>Các hàm tính diện tích các hình</h1>
+
+    <table>
+        
+        <tr>
+        <td><label for="chiều_dài">Nhập chiều dài hình chữ nhật:</label>
+        <input type="number" id="chiều_dài"> </td>
+
+        <td><label for="chiều_rộng">Nhập chiều rộng hình chữ nhật:</label>
+        <input type="number" id="chiều_rộng"> </td>
+
+        <td><button onclick="calculateRectangleArea()">Tính diện tích hình chữ nhật</button></td>
+        <td><div id="diện_tích_hcn" class="kết_quả"></div> </td>
+        </tr>
+        
+        <tr>
+        <td><label for="cơ_sở">Nhập cạnh cơ sở hình tam giác:</label>
+        <input type="number" id="cơ_sở"> </td>
+
+        <td><label for="chiều_cao">Nhập chiều cao hình tam giác:</label>
+        <input type="number" id="chiều_cao"> </td>
+
+        <td><button onclick="calculateTriangleArea()">Tính diện tích hình tam giác</button></td>
+        <td><div id="diện_tích_tam_giác" class="kết_quả"></div> </td>
+        </tr>
+
+        <tr>
+        <td><label for="canh">Độ dài cạnh hình vuông:</label>
+        <input type="number" id="canh"> </td>
+
+        <td></td>
+
+        <td><button onclick="calculateSquareArea()">Tính diện tích hình vuông</button></td>
+        <td><div id="diện_tích_hv" class="kết_quả"></div> </td>
+        </tr>
+</body>
+</html>
